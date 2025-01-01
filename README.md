@@ -12,19 +12,19 @@ healthcare_project/
 │   │   ├── models.py          # SQLAlchemy models for organizations
 │   │   ├── schemas.py         # Pydantic schemas for organizations
 │   │   ├── crud.py            # CRUD operations for organizations
-│   │   ├── router.py          # API routes for organizations
+│   │   ├── routers.py          # API routes for organizations
 │   ├── reports/               # Handles user reports and tests
 │   │   ├── __init__.py
 │   │   ├── models.py          # SQLAlchemy models for reports and tests
 │   │   ├── schemas.py         # Pydantic schemas for reports and tests
 │   │   ├── crud.py            # CRUD operations for reports and tests
-│   │   ├── router.py          # API routes for reports
+│   │   ├── routers.py          # API routes for reports
 │   ├── users/                 # Manages user-related functionality
 │   │   ├── __init__.py
 │   │   ├── models.py          # SQLAlchemy models for users
 │   │   ├── schemas.py         # Pydantic schemas for users
 │   │   ├── crud.py            # CRUD operations for users
-│   │   ├── router.py          # API routes for users
+│   │   ├── routers.py          # API routes for users
 ├── core/
 │   ├── __init__.py
 │   ├── database.py            # Database connection and session setup
